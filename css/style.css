@@ -1,0 +1,174 @@
+body {
+        text-align: center;
+				background-image: url("../images/blue-background.png");
+				background-size: cover;
+				background-position: right top;
+				background-attachment: fixed;
+}
+header {
+  background: url('images/france_paris_clownbar.png');
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 450px;
+  align-content: center;
+}
+.container {
+  background: rgba(255, 255, 255, 0.6);
+	width: 90%;
+}
+tr {
+  align-content: center;
+}
+a {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+p {
+  text-align: center;
+}
+
+}
+h1 {
+  font-size: 80px;
+  font-style: italic;
+  text-align: center;
+  color: black;
+  padding: 0px 20px 0px 20px;
+}
+}
+h2 {
+
+  font-style: italic;
+  padding: 30px 20px 20px 20px;
+}
+h3 {
+  padding: 30px 20px 10px 20px;
+  font-style: italic;
+}
+
+h4 {
+  padding: 20px 20px 20px 20px;
+  font-style: italic;
+}
+img {
+  margin: 30px 10px 10px 0px;
+
+
+}
+ul {
+  padding: 10px;
+  background: #3a4159;
+}
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+.post {
+  text-align: center;
+}
+.post img{
+    display: inline-grid;
+    vertical-align: top;
+    padding: 0px 0px 0px 0px;
+    width: 300px;
+    height: 300px;
+}
+.post-text {
+  padding: 20px 100px 20px 100px;
+  font-weight: normal;
+  font-size: 18px;
+}
+body {
+  text-align: center;
+  align-items: center;
+}
+.aboutus td {
+  width: 400px;
+  max-width: 400px;
+  device-width: 200px;
+  text-align:justify;
+  vertical-align:top;
+  padding: 10px 30px 10px 30px;
+}
+.aboutus th {
+  text-align: center;
+  vertical-align:top;
+}
+.name {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+table {
+  text-align: center;
+  align-content: center;
+}
+.insta {
+  color: white;
+  font-size: 30px
+}
+.bottom img {
+  width: 150px;
+  height: 150px;
+}
+
+.bottom td{
+  vertical-align: middle;
+  width: 100px;
+  padding: 0px 10px 0px 10px
+}
+.bottom tr{
+  width: 100px;
+}
+.bottom {
+  background-color: #3a4159;
+  color: white;
+}
+.footer {
+				width: 100%;
+				bottom: 0;
+				left: 0;
+				padding: 20px;
+				text-align: center;
+				margin-bottom: -60px;
+			}
+			.footer .fa {
+			    padding: 5px;
+			    margin: 10px;
+			    font-size: 32px;
+			    width: 45px;
+			    text-align: center;
+			    text-decoration: none;
+			    border-radius: 20%;
+				background: rgba(255, 255, 255, 0.1);
+				color: rgba(255, 255, 255, 1);
+				border: solid 2px rgba(255, 255, 255, 0.7);
+			}
+			.footer .fa:hover {
+				text-decoration: none;
+				color: rgba(255, 255, 255, 1);
+				-webkit-transition: 0.5s;
+				-moz-transition: 0.5s;
+			}
+			.fa-facebook:hover {
+				background: rgba(59,89,152,1);
+				border: solid 2px rgba(59,89,152,1);
+			}
+			.fa-pinterest:hover {
+				background: rgba(201,34,40,1);
+				border: solid 2px rgba(201,34,40,1);
+			}
+			.fa-twitter:hover {
+				background: rgba(0, 172, 237,1);
+				border: solid 2px rgba(0, 172, 237,1);
+			}
+			.fa-envelope:hover {
+				background: rgba(112,128,144,1);
+				border: solid 2px rgba(112,128,144,1);
+			}
+@media screen and (max-width: 480px) {
+    img {
+         width: 300px;
+    }
+}
