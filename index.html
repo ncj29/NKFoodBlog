@@ -144,7 +144,7 @@ $('html, body').hide();
 
 $(document).ready(function()
 {
-    $('img[href^=#]').bind("click", jump);
+    $('a[href^=#]').bind("click", jump);
 
     if (location.hash){
         setTimeout(function(){
@@ -158,4 +158,11 @@ $(document).ready(function()
 });
 
 
+=======
+  $("#suggest").click(function(event) {
+  var restaurant = $("#restaurant").val();
+  var city = $("#city").val();
+  $("#suggestionslist").append('<li>' + restaurant + ", " + city + '</li>');
+})
+>>>>>>> f41efdcb5e7700ff80d3e664c6bb6aab6e8cf7dd
 </script>
