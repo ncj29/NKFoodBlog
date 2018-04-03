@@ -119,4 +119,9 @@ function showSlides() {
     slides[slideIndex-1].style.display = "block";
     setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
+  $("#suggest").click(function(event) {
+  var restaurant = $("#restaurant").val();
+  var city = $("#city").val();
+  $("#suggestionslist").append('<li>' + restaurant + ", " + city + '</li>');
+})
 </script>
