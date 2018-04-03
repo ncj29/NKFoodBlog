@@ -32,20 +32,20 @@
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
     <div class="numbertext">1 / 3</div>
-    <a href="trips.html#headline1"><img src="images/vietnam-slider.png" style="width:100%"></a>
-    <div class="text"><a href="trips.html#headline1">Vietnam</a></div>
+    <img src="images/vietnam-slider.png" style="width:100%">
+    <div class="text">Vietnam</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">2 / 3</div>
-    <a href="trips.html#headline2"><img src="images/paris-slider.png" style="width:100%"></a>
-    <div class="text"><a href="trips.html#headline2">Paris</a></div>
+    <img src="images/paris-slider.png" style="width:100%">
+    <div class="text">Paris</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">3 / 3</div>
-    <a href="trips.html#headline3"><img src="images/barcelona-slider.png" style="width:100%"></a>
-    <div class="text"><a href="trips.html#headline3">Barcelona</a></div>
+    <img src="images/barcelona-slider.png" style="width:100%">
+    <div class="text">Barcelona</div>
   </div>
 
   <!-- Next and previous buttons -->
@@ -119,42 +119,4 @@ function showSlides() {
     slides[slideIndex-1].style.display = "block";
     setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
-
-var jump=function(e)
-{
-   if (e){
-       e.preventDefault();
-       var target = $(this).attr("href");
-   }else{
-       var target = location.hash;
-   }
-
-   $('html,body').animate(
-   {
-       scrollTop: $(target).offset().top
-   },2000,function()
-   {
-       location.hash = target;
-   });
-
-}
-
-$('html, body').hide();
-
-$(document).ready(function()
-{
-    $('img[href^=#]').bind("click", jump);
-
-    if (location.hash){
-        setTimeout(function(){
-            $('html, body').scrollTop(0).show();
-            jump();
-        }, 0);
-    }else{
-        $('html, body').show();
-    }
-
-});
-
-
 </script>
