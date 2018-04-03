@@ -15,11 +15,13 @@
     <h1>Nicole & Kakay: Food & Travel</h1>
     <h4>Two London-based twenty-somethings that travel around and eat loads.</h4>
 
+    <div class="inlinelist">
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About</a></li>
       <li><a href="trips.html">Trips</a></li>
     </ul>
+    </div>
 
   </header>
 
@@ -61,28 +63,38 @@
     </div>
 </div>
 
-<div class=bottom>
+<div class=bottom align="center">
+  <div>
     <h3>Want to be inspired or inspire us? Follow us on Instagram or add to our suggestions list below!</h3>
-      <table align="center">
+      <table>
         <tr>
           <td><a class="insta" href="https://www.instagram.com/kakaypang/">@kakaypang</a></td>
-          <td><img class="insta" src="images/instagram-logo.png" width="150px"></td>
+          <td><img class="insta" src="images/instagram-logo.png" width="50"></td>
           <td><a class = "insta" href="https://www.instagram.com/ncj29/">@ncj29</a></td>
         <tr/>
       </table>
-      <div id="Suggestions">
-            Restaurant Name
-            <input type="text" name="RestaurantName" placeholder="RestaurantName" class="input" id="restaurant">
-            City
+    </div>
+      <div class="inlinelist">
+          <ul>
+            Restaurant
+            <li><input type="text" name="Restaurant Name" placeholder="Restaurant Name" class="input" id="restaurant">
+            </li>
+            <li>
+            Location
             <input type="text" name="City" placeholder="City" class="input" id="city">
-            <button value="Suggest" id="suggest">Suggest</button>
-          <div id="suggestionslist">
+            </li>
+            <li>
+            <button type="button" class="btn btn-secondary" value="Suggest" id="suggest">Suggest</button>
+            </li>
+          </ul>
+      </div>
+      <div id="suggestionslist">
             <ul>
             <li>Smoking Goat, London</li>
-            <li>Le Petit Palais, Paris</li></ul>
+            <li>Le Petit Palais, Paris</li>
+            </ul>
           </div>
-        </div>
-    </div>
+</div>
 
 </body>
 <script>

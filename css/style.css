@@ -68,7 +68,7 @@ ul {
   padding: 10px;
   background: #3a4159;
 }
-li {
+.inlinelist ul li {
   display: inline;
   padding: 0px 20px 0px 20px;
 }
@@ -133,8 +133,8 @@ table {
   font-size: 30px
 }
 .bottom img {
-  width: 150px;
-  height: 150px;
+  width: 50px;
+  height: 50px;
 }
 
 .bottom td{
@@ -148,6 +148,15 @@ table {
 .bottom {
   background-color: #3a4159;
   color: white;
+}
+
+.bottom table{
+  padding: 0px 0px 200px 0px
+  align: center;
+}
+
+#suggest {
+  color: grey;
 }
 
 /*CAROUSEL CSS*/
