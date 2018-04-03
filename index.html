@@ -65,15 +65,27 @@
 <!--footer-->
 
 <div class=bottom>
-<h3>Want more inspiration? Find us here!</h3>
-<table align="center">
-  <tr>
-<td><a class="insta" href="https://www.instagram.com/kakaypang/">@kakaypang</a></td>
-<td><img class="insta" src="images/instagram-logo.png" width="150px"></td>
-<td><a class = "insta" href="https://www.instagram.com/ncj29/">@ncj29</a></td>
-<tr/>
-<table>
-</div>
+    <h3>Want to be inspired or inspire us? Follow us on Instagram or add to our suggestions list below!</h3>
+      <table align="center">
+        <tr>
+          <td><a class="insta" href="https://www.instagram.com/kakaypang/">@kakaypang</a></td>
+          <td><img class="insta" src="images/instagram-logo.png" width="150px"></td>
+          <td><a class = "insta" href="https://www.instagram.com/ncj29/">@ncj29</a></td>
+        <tr/>
+      </table>
+      <div id="Suggestions">
+            Restaurant Name
+            <input type="text" name="RestaurantName" placeholder="RestaurantName" class="input" id="restaurant">
+            City
+            <input type="text" name="City" placeholder="City" class="input" id="city">
+            <button value="Suggest" id="suggest">Suggest</button>
+          <div id="suggestionslist">
+            <ul>
+            <li>Smoking Goat, London</li>
+            <li>Le Petit Palais, Paris</li></ul>
+          </div>
+        </div>
+    </div>
 
 
 </body>
@@ -119,4 +131,11 @@ function showSlides() {
     slides[slideIndex-1].style.display = "block";
     setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
+
+$("#suggest").click(function(event) {
+var restaurant = $("#restaurant").val();
+var city = $("#city").val();
+$("#suggestionslist").append('<li>' + restaurant + ", " + city + '</li>');
+})
+
 </script>
