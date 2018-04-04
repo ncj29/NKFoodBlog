@@ -10,7 +10,7 @@ body {
 @font-face {
 font-family: "Ostrich Sans Black";
 src:
-url("fonts/OstrichSans-Black.otf") format("opentype"),
+url("fonts/OstrichSans-Black.otf") format("opentype");
 }
 header {
 font-family: OstrichSans-Black;
@@ -37,15 +37,12 @@ p {
   text-align: center;
   padding: 20px 20px 20px 20px;
 }
-
-}
 h1 {
   font-size: 200px;
   font-style: italic;
   text-align: center;
   color: black;
   padding: 0px 20px 0px 20px;
-}
 }
 h2 {
   font-style: italic;
@@ -56,7 +53,6 @@ h3 {
   padding: 30px 20px 10px 20px;
   font-style: italic;
 }
-
 h4 {
   padding: 20px 20px 20px 20px;
   font-style: italic;
@@ -94,7 +90,7 @@ li {
 }
 h2 a{
   color: white;
-  font-size: 30px
+  font-size: 30px;
 }
 blockquote {
   font-size: 20px;
@@ -130,7 +126,7 @@ table {
 }
 .insta {
   color: white;
-  font-size: 30px
+  font-size: 30px;
 }
 .bottom img {
   width: 100px;
@@ -141,7 +137,7 @@ table {
   vertical-align: middle;
   align: middle;
   width: 100px;
-  padding: 0px 10px 0px 0px
+  padding: 0px 10px 0px 0px;
 }
 .bottom tr{
   width: 200px;
@@ -165,7 +161,6 @@ table {
   position: relative;
   margin: auto;
 }
-
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
@@ -178,13 +173,12 @@ table {
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
+  border-radius: 3px 3px 3px 3px;
 }
 
 /* Position the "next button" to the right */
 .next {
   right: 0;
-  border-radius: 3px 0 0 3px;
 }
 .prev {
   left: 0;
@@ -197,15 +191,13 @@ table {
 
 /* Caption text */
 .text {
-  color: #3a4159;
+  color: white;
   font-size: 50px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
   width: 100%;
   text-align: center;
-}
-.text a{
   color: white;
   font-size: 50px;
 }
@@ -237,9 +229,9 @@ table {
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  -webkit-animation-duration: 2s;
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 2s;
 }
 
 @-webkit-keyframes fade {
@@ -255,9 +247,4 @@ table {
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
-}
-@media screen and (max-width: 480px) {
-    img {
-         width: 300px;
-    }
 }
