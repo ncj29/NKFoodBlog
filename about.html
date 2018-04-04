@@ -9,7 +9,7 @@
 <body>
   <header>
     <tr>
-    <img class="img-circle" src='images/france_paris_clownbar.png' width="300px" align-content: "center">
+    <img class="img-circle" src='images/nicole-profile.png' width="300px" align-content: "center">
     <img class="img-circle" src='images/kakay-profile.png' width="300px"align-content: "center">
   </tr>
     <h1>Nicole & Kakay: Food & Travel</h1>
@@ -27,7 +27,7 @@
 
 <div class="container">
       <div class="about">
-    <h2>a Bit About The Blog</h2>
+    <h2>A Bit About The Blog</h2>
 
     <p>A travel and food blog created between two travel and food lovers! We hope to share some of the best foods we've tasted on our travels and inspire you to give these places a go too! We pick a few of our favourite foods to try on each trip and where you can find it.</p>
 
@@ -58,9 +58,8 @@
 
       </tr>
       <tr>
-        <td><b>A country I would visit again:</b> Cuba</td>
-        <td><b>A country I would visit again:</b> Korea</td>
-
+        <td><b>A country I would visit again:</b> Cuba <a href="https://www.instagram.com/ncj29"><img width="50" src="images/instagram-logo.png" /></a></td>
+        <td><b>A country I would visit again:</b> Korea <a href="https://www.instagram.com/kakaypang"><img width="50" src="images/instagram-logo.png"/></a></td></td>
       </tr>
     </table>
     </div>
@@ -101,11 +100,10 @@
 
 </body>
 <script>
-
   $("#suggest").click(function(event) {
   var restaurant = $("#restaurant").val();
   var city = $("#city").val();
   $("#suggestionslist").append('<li>' + restaurant + ", " + city + '</li>');
   })
-
+  $(.btn btn-secondary).button('toggle')
 </script>
