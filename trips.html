@@ -83,30 +83,27 @@ jdshbsjhbfsjb      </blockquote>
   <!--footer-->
 
   <div class=bottom>
-  <h3>Want more inspiration? Find us here!</h3>
+    <h3>Want to be inspired or inspire us? Follow us on Instagram or add to our suggestions list below!</h3>
+         <table align="center">
+            <tr>
+              <td><a class="insta" href="https://www.instagram.com/kakaypang/">@kakaypang</a></td>
+              <td><img class="insta" src="images/instagram-logo.png" width="150px"></td>
+              <td><a class = "insta" href="https://www.instagram.com/ncj29/">@ncj29</a></td>
+            <tr/>
+          </table>
+          <div id="Suggestions">
+                Restaurant Name
+                <input type="text" name="RestaurantName" placeholder="RestaurantName" class="input" id="restaurant">
+                City
+                <input type="text" name="City" placeholder="City" class="input" id="city">
+                <button value="Suggest" id="suggest">Suggest</button>
+              <div id="suggestionslist">
+                <ul>
+                <li>Smoking Goat, London</li>
+                <li>Le Petit Palais, Paris</li></ul>
+              </div>
+            </div>
 
-  <ul class="social">
-  						<li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-  						<li><a href="https://plus.google.com" target="_blank"><i class="fa fa-google-plus"></i></a>
-  						</li><li><a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube"></i></a></li>
-  						<li><a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li>
-  					</ul>
-
-
-
-   <div class="row">
-     <div class="col">
-       <img class="insta" src="images/instagram-logo-white.png_256" width="30px">
-     </div>
-   </div>
-   <div class="row">
-     <div class="col">
-      <a class="insta" href="https://www.instagram.com/kakaypang/">@kakaypang</a>
-     </div>
-     <div class="col">
-       <a class = "insta" href="https://www.instagram.com/ncj29/">@ncj29</a>
-     </div>
-   </div>
 
 
   <table align="center">
@@ -118,5 +115,14 @@ jdshbsjhbfsjb      </blockquote>
   <tr/>
   <table>
   </div>
-
-<body>
+</div>
+</body>
+  -  <script>
+  -
+  -    $("#suggest").click(function(event) {
+  -    var restaurant = $("#restaurant").val();
+  -    var city = $("#city").val();
+  -    $("#suggestionslist").append('<li>' + restaurant + ", " + city + '</li>');
+  -    })
+  -
+  -  </script>
