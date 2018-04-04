@@ -118,10 +118,10 @@ body {
 .about h2{
   color: white;
 }
-.name {
+#name {
   font-weight: bold;
   font-size: 20px;
-  text-align: center;
+  display: center;
 }
 table {
   text-align: center;
