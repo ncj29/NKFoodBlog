@@ -94,7 +94,7 @@ ul {
 }
 h2 a{
   color: white;
-  font-size: 30px
+  font-size: 30px;
 }
 blockquote {
   font-size: 20px;
@@ -127,10 +127,12 @@ table {
   text-align: center;
   align-content: center;
   padding-bottom: 30px;
+  display: center;
 }
 .insta {
   color: white;
-  font-size: 30px
+  font-size: 30px;
+  display: center;
 }
 .bottom img {
   width: 50px;
@@ -140,7 +142,7 @@ table {
 .bottom td{
   vertical-align: middle;
   width: 100px;
-  padding: 0px 10px 0px 10px
+  padding: 0px 10px 0px 10px;
 }
 .bottom tr{
   width: 200px;
@@ -151,7 +153,7 @@ table {
 }
 
 .bottom table{
-  padding: 0px 0px 200px 0px
+  padding: 0px 0px 200px 0px;
   align: center;
 }
 
