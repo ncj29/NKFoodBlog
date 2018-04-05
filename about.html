@@ -71,7 +71,7 @@
       <table>
         <tr>
           <td><a class="insta" href="https://www.instagram.com/kakaypang/">@kakaypang</a></td>
-          <td><img class="insta" src="images/instagram-logo.png" width="50"></td>
+          <td><img class="insta" src='images/instagram-logo.png' width="50"></td>
           <td><a class = "insta" href="https://www.instagram.com/ncj29/">@ncj29</a></td>
         <tr/>
       </table>
@@ -79,14 +79,14 @@
       <div class="inlinelist">
           <ul>
             Restaurant
-            <li><input type="text" name="Restaurant Name" placeholder="Restaurant Name" class="input" id="restaurant">
+            <li><input type="text" name="restaurant" placeholder="Restaurant Name" class="input" id="restaurant">
             </li>
             <li>
             Location
-            <input type="text" name="City" placeholder="City" class="input" id="city">
+            <input type="text" name="city" placeholder="City" class="input" id="city">
             </li>
             <li>
-            <button type="button" class="btn btn-secondary" value="Suggest" id="suggest">Suggest</button>
+            <button type="button" class="btn btn-secondary" value="suggest" id="suggest">Suggest</button>
             </li>
           </ul>
       </div>
@@ -97,13 +97,12 @@
             </ul>
           </div>
 </div>
-
-</body>
 <script>
   $("#suggest").click(function(event) {
   var restaurant = $("#restaurant").val();
   var city = $("#city").val();
   $("#suggestionslist").append('<li>' + restaurant + ", " + city + '</li>');
   })
-  $(.btn btn-secondary).button('toggle')
 </script>
+</body>
+</!DOCTYPE html>
