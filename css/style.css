@@ -1,3 +1,9 @@
+
+@font-face {
+font-family: "Ostrich Sans Black";
+src:
+url("fonts/OstrichSans-Black.otf") format("opentype");
+}
 body {
         text-align: center;
         color: white;
@@ -6,11 +12,6 @@ body {
 				background-size: cover;
 				background-position: right top;
 				background-attachment: fixed;
-}
-@font-face {
-font-family: "Ostrich Sans Black";
-src:
-url("fonts/OstrichSans-Black.otf") format("opentype");
 }
 header {
 font-family: OstrichSans-Black;
